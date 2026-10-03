@@ -1,0 +1,7 @@
+# Ignore temporary files
+*.bak
+*.log
+temp_*
+node_error.txt
+dom_output.txt
+dom_err.txt

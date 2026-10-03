@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "advertisement": "Consolidated 03/2026",
+    "posts": [
+      "167/2026 Meteorologist BS-17",
+      "171/2026 Assistant Meteorologist BS-16"
+    ],
+    "generated": "2026-10-03T00:14:00.367898",
+    "format": "React-importable JSON"
+  },
+  "subjects": [
+    {
+      "id": "english",
+      "name": "English",
+      "appliesTo": "Both (Vocabulary only for BS-17)",
+      "weightage": "20%",
+      "examTips": [
+        "Vocabulary = 6-8 Qs: Synonyms, Antonyms, One-word. Memorize 300 high-frequency FPSC words",
+        "Prepositions are guaranteed traps: good AT, interested IN, fond OF, similar TO, capable OF",
+        "Tense marker method: since/for -> perfect continuous, yesterday -> past simple",
+        "BS-17 includes Vocabulary section, BS-16 syllabus says only Grammar + Sentence Structuring but still expect 4-5 vocabulary",
+        "Negative marking: don't guess vocabulary if unsure"
+      ],
+      "topics": [
+        {
+          "topic": "Vocabulary",
+          "keyPoints": [
+            "Benevolent = kind-hearted, Verbose = wordy, Concise = brief (antonym of verbose)",
+            "Ambiguous = more than one meaning, Lucid = clear, Mitigate = lessen",
+            "Ephemeral = short-lived, Ubiquitous = present everywhere, Altruism = selflessness",
+            "One-word: Insolvent = cannot pay debts, Hermit = lives alone, Philanthropist = loves mankind",
+            "Spelling FPSC traps: Accommodation, Occurrence, Privilege, Embarrassment, Liaison"
+          ],
+          "mustRemember": [
+            "Root 'bene' = good, 'mal' = bad, 'epi' = upon, 'ambi' = both"
+          ]
+        },
+        {
+          "topic": "Grammar Usage",
+          "keyPoints": [
+            "Neither/Either/Each/Every + singular verb: Neither of the students HAS done",
+            "Active to Passive: Present Continuous 'is checking' -> 'are being checked'",
+            "Direct to Indirect: 'today'->'that day', 'tomorrow'->'next day', 'here'->'there'",
+            "Articles: 'an hour', 'a university' (sound based), 'the' for superlatives",
+            "Prepositions: Good AT (skill), Good IN (behaviour), Angry AT (thing), Angry WITH (person)"
+          ],
+          "formulas": [
+            "Present Perfect Continuous: has/have been + V-ing + since/for"
+          ]
+        },
+        {
+          "topic": "Sentence Structuring",
+          "keyPoints": [
+            "Sentence types: Simple, Compound (FANBOYS), Complex (subordinate clause)",
+            "Common correction: 'The committee has submitted its report' not 'their'",
+            "Dangling modifier: 'Walking through forest, snake bit him' is wrong",
+            "Parallelism: 'He likes reading, writing and to swim' -> 'swimming'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meteorology",
+      "name": "Meteorology",
+      "appliesTo": "Both - Highest weightage",
+      "weightage": "25-30%",
+      "topics": [
+        {
+          "topic": "Atmosphere Composition & Structure",
+          "keyPoints": [
+            "Composition: N2 78.08%, O2 20.95%, Ar 0.93%, CO2 0.04% (420ppm in 2026)",
+            "Layers: Troposphere (0-8-18km, temp decreases), Stratosphere (ozone max 20-50km, temp increases), Mesosphere (temp decreases to -90C), Thermosphere (temp increases, aurora), Exosphere",
+            "Tropopause height: ~17km equator, ~8km poles. Coldest point",
+            "Ozone layer: 20-50km, max concentration at 25km, Dobson unit"
+          ],
+          "formulas": [
+            "Barometric formula: p = p0 * exp(-z/H)",
+            "Scale height H = RT/g ~8km"
+          ],
+          "fpsc_traps": [
+            "Troposphere contains 75% mass, Stratosphere contains ozone, not Troposphere"
+          ]
+        },
+        {
+          "topic": "Thermodynamics & Gas Laws",
+          "keyPoints": [
+            "Ideal gas: p = ρ R_d T, R_d = 287 J/kg/K, R_v = 461",
+            "Hydrostatic: dp = -ρ g dz => pressure decreases exponentially",
+            "First law: dQ = c_v dT + p dα, dry adiabatic process dQ=0",
+            "DALR = g/c_p = 9.8°C/km, SALR ~6°C/km (variable due to latent heat)",
+            "Potential temperature θ = T*(1000/p)^(R/c_p) conserved for dry adiabatic",
+            "Stability: If ELR < DALR stable, ELR > DALR unstable, saturated uses SALR"
+          ],
+          "formulas": [
+            "θ = T (1000/p)^0.286",
+            "Hydrostatic: dp/dz = -ρg",
+            "DALR = 9.8 K/km"
+          ],
+          "mustRemember": [
+            "Latent heat release makes SALR less than DALR"
+          ]
+        },
+        {
+          "topic": "Radiation & Humidity",
+          "keyPoints": [
+            "Solar constant ~1361 W/m2, Albedo Earth ~0.30",
+            "Stefan-Boltzmann: E = σT^4, Wien's law λmax = 2897/T",
+            "Scattering: Rayleigh (λ^-4, blue sky), Mie (white clouds), Non-selective",
+            "Humidity: Mixing ratio w = 0.622 e/(p-e), Relative humidity RH = e/e_s *100",
+            "Clausius-Clapeyron: e_s increases ~7% per degree warming",
+            "Psychrometer: dry & wet bulb, depression gives humidity"
+          ],
+          "formulas": [
+            "RH = e/e_s *100",
+            "σ = 5.67e-8 W/m2K4"
+          ]
+        },
+        {
+          "topic": "Clouds & Precipitation",
+          "keyPoints": [
+            "Cloud classification: Low (St, Sc, Ns <2km), Middle (Ac, As 2-7km), High (Ci, Cs, Cc 5-13km), Vertical (Cu, Cb)",
+            "Formation: Convection, Orographic, Frontal, Convergence",
+            "Precipitation: Bergeron process (ice crystals grow at expense of droplets), Collision-coalescence (warm rain)",
+            "Types: Drizzle, Rain, Snow, Sleet, Hail, Graupel"
+          ],
+          "fpsc_traps": [
+            "Cumulonimbus = thunderstorm cloud, Nimbostratus = continuous rain"
+          ]
+        },
+        {
+          "topic": "Pressure & Wind Systems",
+          "keyPoints": [
+            "Geostrophic wind: Balance pressure gradient & Coriolis, Vg = (1/fρ) * Δp/Δn, parallel to isobars",
+            "Gradient wind: adds centrifugal for curved flow",
+            "Thermal wind: vertical shear of geostrophic wind due to horizontal temp gradient",
+            "Local winds: Sea breeze (day sea->land), Land breeze (night), Mountain-valley, Foehn/Chinook (warm dry downslope), Loo in Pakistan",
+            "Jet streams: Subtropical (STJ) & Polar (PFJ), core speed 100-200 knots, at 200-300 hPa"
+          ],
+          "formulas": [
+            "Coriolis f = 2Ω sinφ, Ω=7.292e-5",
+            "Vg = (1/(f)) * ∂Φ/∂n"
+          ],
+          "pakistanContext": [
+            "Monsoon low, Heat low over Balochistan drives monsoon"
+          ]
+        },
+        {
+          "topic": "Air Masses, Fronts, Cyclones",
+          "keyPoints": [
+            "Air masses: cP, cA, mP, mT, cT - Pakistan affected by cP in winter (Western Disturbances), mT from Arabian Sea in summer",
+            "Fronts: Cold (steep, heavy rain), Warm (gentle slope, prolonged), Occluded, Stationary",
+            "Extra-tropical cyclone: Formation along polar front, Norwegian model, life cycle 3-7 days",
+            "Tropical cyclone: Requires SST >26.5C, Coriolis, low shear, formation 5-20° latitude. Eye, eyewall, spiral bands. Pakistan: Arabian Sea cyclones (Tauktae, Biparjoy)",
+            "Thunderstorm: 3 stages Cu, Mature, Dissipating. Conditions: instability, moisture, lift. Types: single, multi-cell, super-cell"
+          ],
+          "mustRemember": [
+            "Pakistan monsoon depressions form in Bay of Bengal, move NW to Pakistan"
+          ]
+        },
+        {
+          "topic": "Observation & Forecasting",
+          "keyPoints": [
+            "Instruments: Barometer (aneroid/mercury), Anemometer, Wind vane, Hygrometer, Sunshine recorder, Radiosonde (PTU + GPS)",
+            "Charts: Surface chart (isobars, fronts), 850hPa (monsoon), 500hPa (troughs), 200hPa (jet)",
+            "METAR, SYNOP codes: QNH, visibility, cloud cover in oktas",
+            "Forecasting: Synoptic, Statistical, Persistence, NWP (initialization, data assimilation, models: GFS, ECMWF, ICON)",
+            "Satellite: INSAT, Meteosat, Himawari. Channels: VIS (albedo), IR (temp), WV (moisture). Radar: dBZ reflectivity, Doppler velocity",
+            "PMD models: WRF, used for 3-day forecast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climatology",
+      "name": "Climatology",
+      "appliesTo": "Both",
+      "weightage": "15%",
+      "topics": [
+        {
+          "topic": "Climate Controls & Classification",
+          "keyPoints": [
+            "Controls: Latitude, Altitude, Continentality, Ocean currents, Prevailing winds, Topography",
+            "Koppen: A Tropical, B Dry, C Temperate, D Cold, E Polar. Subtypes: f=fully humid, m=monsoon, w=winter dry, s=summer dry. Pakistan: BWh (hot desert), BWk, Cwa",
+            "Thornthwaite based on precipitation effectiveness & thermal efficiency",
+            "World: Equatorial (Af), Monsoon (Am), Savanna (Aw), Desert (BWh), Steppe (BSh), Mediterranean (Csa), etc."
+          ]
+        },
+        {
+          "topic": "Pakistan Climate & Monsoon",
+          "keyPoints": [
+            "Pakistan: 4 seasons - Winter (Dec-Feb) WD rain, Pre-monsoon (Apr-Jun) hot/dusty, Monsoon (Jul-Sep) 60% rain, Post-monsoon (Oct-Nov)",
+            "Monsoon mechanism: Land-sea thermal contrast, ITCZ shift to 25N, Somali Jet, Tibetan High, Heat low over Balochistan",
+            "Onset: Karachi early July, Islamabad early July, retreat September",
+            "Western Disturbances: Originate Mediterranean, 4-6 per month in winter, cause rain/snow in north, fog in plains",
+            "Temperature extremes: Jacobabad/Sibi up to 53C, Skardu -25C"
+          ],
+          "pakistanContext": [
+            "2022 floods due to +60% monsoon + glacier melt, 2010 super flood due to WD + monsoon interaction"
+          ]
+        },
+        {
+          "topic": "Climate Variability & Change",
+          "keyPoints": [
+            "ENSO: El Nino (warm central Pacific, weak monsoon Pakistan often), La Nina (cold, strong monsoon, 2020-2022 La Nina contributed to floods)",
+            "IOD: Positive IOD (warm west Indian Ocean) enhances monsoon, Negative suppresses",
+            "Global warming: 1.1C since pre-industrial, Pakistan warming 0.3C/decade, glaciers melting",
+            "IPCC AR6: Human influence unequivocal, 1.5C threshold around 2030s",
+            "Paleoclimate: Ice cores, Dendrochronology, Milankovitch cycles (eccentricity 100k, obliquity 41k, precession 23k years)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Basics of Physics",
+      "appliesTo": "Both",
+      "weightage": "10-12%",
+      "topics": [
+        {
+          "topic": "Mechanics & Fluid",
+          "keyPoints": [
+            "Newton: F=ma, Law of gravitation F=Gm1m2/r^2",
+            "Work-energy: KE=0.5mv^2, PE=mgh, Escape velocity Ve=√(2gR)=11.2km/s",
+            "Bernoulli: p + 0.5ρv^2 + ρgh = constant - explains lift, venturi",
+            "Viscosity: Newton's law τ=μ dv/dy, Reynolds number Re=ρvL/μ, laminar if <2000"
+          ],
+          "formulas": [
+            "Ve=11.2 km/s",
+            "Bernoulli equation"
+          ]
+        },
+        {
+          "topic": "Heat & Thermodynamics",
+          "keyPoints": [
+            "Laws: 0th (thermal equilibrium), 1st (dU=dQ-dW), 2nd (entropy increases), 3rd (0K unattainable)",
+            "Kinetic theory: PV=(1/3)mN c^2, RMS speed = √(3RT/M)",
+            "Specific heats: Cp-Cv=R, γ=Cp/Cv=1.4 for diatomic",
+            "Blackbody radiation important for meteorology"
+          ]
+        },
+        {
+          "topic": "Waves, Optics, EM",
+          "keyPoints": [
+            "Wave: v=fλ, Sound speed in air ~343 m/s, increases with temperature",
+            "Doppler: f' = f (v±vo)/(v±vs) - used in radar",
+            "Optics: Snell's law n1 sinθ1=n2 sinθ2, Total internal reflection for mirage",
+            "Scattering: Rayleigh ∝1/λ^4 explains blue sky, red sunset",
+            "EM spectrum: Radio>Microwave>IR>Visible>UV>Xray>Gamma, all speed c=3e8 m/s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maths",
+      "name": "Basic Mathematics",
+      "appliesTo": "Both",
+      "weightage": "10-12%",
+      "topics": [
+        {
+          "topic": "Algebra & Calculus",
+          "keyPoints": [
+            "Quadratic: ax^2+bx+c=0, roots = (-b±√(b^2-4ac))/2a, discriminant D=b^2-4ac",
+            "Matrices: Determinant, Inverse exists if det≠0",
+            "Calculus: d/dx x^n = n x^(n-1), ∫x^n dx = x^(n+1)/(n+1). d/dx sinx=cosx, e^x=e^x",
+            "Differential eq: First order separable, used for growth/decay, Newton's cooling",
+            "Vectors: Dot a·b=|a||b|cosθ, Cross |a×b|=|a||b|sinθ"
+          ],
+          "formulas": [
+            "Quadratic formula",
+            "Derivative rules"
+          ]
+        },
+        {
+          "topic": "Statistics & Probability",
+          "keyPoints": [
+            "Mean = sum/n, Median middle value, Mode most frequent",
+            "Variance = Σ(x-mean)^2/n, SD = sqrt(variance), SD measures spread",
+            "Correlation r: -1 to +1, r>0.7 strong positive, Regression y=a+bx",
+            "Probability: P(A and B)=P(A)*P(B) if independent, Normal distribution 68-95-99.7 rule",
+            "For meteorological data: Anomaly = observed - climatological mean"
+          ],
+          "mustRemember": [
+            "Standard deviation of weather data indicates variability, used in climate normals (30-year mean 1991-2020)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environmental",
+      "name": "Environmental Studies",
+      "appliesTo": "Both",
+      "weightage": "8-10%",
+      "topics": [
+        {
+          "topic": "Pollution & Climate Issues",
+          "keyPoints": [
+            "Air pollutants: PM2.5 (<2.5 micron most dangerous), NOx, SO2, CO, O3. AQI categories 0-50 Good to 300+ Hazardous. Lahore often 200+ in winter",
+            "Smog = Smoke+Fog, photochemical smog needs sunlight + NOx + VOCs",
+            "Acid rain: pH<5.6, due to SO2+NOx -> H2SO4+HNO3, damages crops",
+            "Ozone depletion: CFCs release Cl, one Cl destroys 100k O3, Montreal Protocol 1987 success",
+            "Greenhouse gases: CO2 (76%), CH4 (16%, 80x more potent 20yr), N2O, HFCs. CO2 420ppm now vs 280 pre-industrial"
+          ],
+          "pakistanContext": [
+            "Pakistan 5th most vulnerable to climate change (Germanwatch), 2022 floods damage $30bn"
+          ]
+        },
+        {
+          "topic": "Ecology & Policies",
+          "keyPoints": [
+            "Ecosystem: Producers->Primary consumers->Secondary, 10% energy transfer",
+            "Biodiversity hotspots: Pakistan has Himalaya hotspot",
+            "Conventions: UNFCCC 1992, Kyoto 1997 (binding for developed), Paris 2015 (limit to <2C, aim 1.5C, NDCs)",
+            "Pakistan policies: National Climate Change Policy 2021, PEPA 1997, Ten Billion Tree Tsunami",
+            "Renewable: Solar potential Balochistan, Wind corridor Gharo-Jhimpir 50GW potential"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research/Analysis (BS-17 Only)",
+      "appliesTo": "BS-17 Only",
+      "weightage": "10%",
+      "topics": [
+        {
+          "topic": "Research Methods & Stats",
+          "keyPoints": [
+            "Research types: Descriptive, Analytical, Experimental, Exploratory",
+            "Sampling: Random, Stratified (best for heterogeneous like Pakistan provinces), Cluster, Systematic",
+            "Data types: Nominal (names), Ordinal (rank), Interval (temp C), Ratio (Kelvin, has true zero)",
+            "Hypothesis testing: Null H0 (no effect), Alternate H1. p<0.05 significant => reject H0",
+            "Errors: Type I (false positive, α), Type II (false negative, β). Confidence interval 95% means 95% contains true value",
+            "Correlation vs Causation: Correlation doesn't imply causation, spurious correlation example ice-cream & drowning",
+            "Time series: Trend, Seasonality, Noise. Moving average smooths, Anomaly detection"
+          ],
+          "formulas": [
+            "p-value interpretation",
+            "Confidence interval = mean ± z*SD/√n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seismology",
+      "name": "Seismology (BS-16 Only)",
+      "appliesTo": "BS-16 Only",
+      "weightage": "12%",
+      "topics": [
+        {
+          "topic": "Earthquakes & Waves",
+          "keyPoints": [
+            "Earth interior: Crust (5-70km), Mantle (2900km), Outer core liquid, Inner core solid",
+            "Plate tectonics: 7 major plates, 3 boundaries: Convergent (Himalaya, earthquakes), Divergent (Mid-Atlantic), Transform (San Andreas)",
+            "Faults: Normal (extension), Reverse (compression), Strike-slip (shear). Pakistan: Chaman Fault (strike-slip), Main Boundary Thrust",
+            "Waves: P (primary, longitudinal, 6km/s, through solid+liquid), S (secondary, transverse, 3.5km/s, only solid, more destructive), Surface: Love & Rayleigh (slow, most destructive, cause shaking)",
+            "Shadow zones: P wave 103-143°, S wave 103° onwards (proves liquid outer core)"
+          ]
+        },
+        {
+          "topic": "Measurement & Pakistan Seismicity",
+          "keyPoints": [
+            "Focus = underground origin, Epicenter = point above focus on surface",
+            "Magnitude: Richter (log10 amplitude, local), Moment Magnitude Mw = (2/3)log10(M0)-10.7 (more accurate, no saturation, used by USGS). Each +1 = 32x energy",
+            "Intensity: Mercalli scale I-XII based on damage & perception, depends on distance, geology",
+            "Seismograph: Inertial mass + spring, records velocity/displacement, modern broadband",
+            "Pakistan zones: Zone 1 (low), 2A, 2B, 3 (high), 4 (very high). Islamabad in 2B, Quetta, Gwadar in 4, Karachi 2B",
+            "Major events: 2005 Kashmir Mw7.6, 2013 Awaran Mw7.7, 1935 Quetta Mw7.7, 1945 Makran tsunami Mw8.1"
+          ],
+          "formulas": [
+            "Energy: log10 E = 11.8 + 1.5M (E in ergs)",
+            "32x energy per magnitude unit"
+          ],
+          "pakistanContext": [
+            "PMD seismic network 35 stations, National Seismic Monitoring Center Islamabad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geology",
+      "name": "Basic Geology (BS-16 Only)",
+      "appliesTo": "BS-16 Only",
+      "weightage": "12%",
+      "topics": [
+        {
+          "topic": "Minerals, Rocks, Time Scale",
+          "keyPoints": [
+            "Minerals: Hardness Mohs 1-10 (Talc to Diamond), Luster, Cleavage, Streak. Quartz, Feldspar most common",
+            "Rocks: Igneous (Granite intrusive, Basalt extrusive), Sedimentary (Sandstone, Limestone, Shale - stratified, fossils), Metamorphic (Marble from limestone, Slate from shale, Gneiss)",
+            "Rock cycle: Igneous -> weathering -> sedimentary -> metamorphism -> melting",
+            "Geological Time: Hadean (4.6-4Ga), Archean, Proterozoic, Phanerozoic (Paleozoic, Mesozoic - age of dinosaurs, Cenozoic - current). Quaternary (2.6Ma-present) includes Holocene (11.7kya-present, human civilization)"
+          ]
+        },
+        {
+          "topic": "Structural & Pakistan Geology",
+          "keyPoints": [
+            "Structures: Anticline (upward fold, oil trap), Syncline (down), Faults, Unconformity (gap in record)",
+            "Geomorphology: Weathering (physical/chemical), Erosion by river (V-shaped valley), Glacier (U-shaped), Wind (yardangs in Balochistan)",
+            "Hydrogeology: Aquifer (permeable), Aquitard, Water table, Artesian well. Indus alluvial aquifer major water source",
+            "Pakistan: 3 main domains: Indian Plate (Punjab, Sindh sedimentary), Kohistan-Ladakh arc, Eurasian Plate. Salt Range (Pre-Cambrian salt), Sulaiman-Kirthar, Himalayan thrust belts",
+            "Economic: Thar coal, Saindak copper-gold, Reko Diq, Sui gas field"
+          ]
+        }
+      ]
+    }
+  ]
+}
